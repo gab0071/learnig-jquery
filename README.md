@@ -1,9 +1,8 @@
-# What is this repository about? 🌟
+# Learning jQuery? 🥇
 
-## I'm really training myself in the language of JavaScript, so I decided to show you guys everything I'm learning and my journey as well.
+## [Introduction jQuery]
 
--   Live Demo 💥: https://cheery-dusk-15e1d0.netlify.app/
--   Local Storage Demo 💥: https://astonishing-churros-f1bd4c.netlify.app/
+-   Live Demo using jQuery 💥: https://hilarious-snickerdoodle-05fe6a.netlify.app
 
 ## In this Repo the tools I used were:
 
@@ -11,6 +10,7 @@
 1️⃣ JavaScript
 2️⃣ HTML
 3️⃣ CSS
+4️⃣ jQuery
 ```
 
 # The structure of the project is as follows:
@@ -29,129 +29,39 @@
 
 ## `To practice topics on your own like: `
 
-# VARIABLES ✅
+# jQuery ✅
 
 ```
--Variables and comments.
-- strict mode
-- let and var
--constants
+- What is jQuery and what is it for?
+- Integrate jQuery
 ```
 
-# Types of data and Operators ✅
+# Selectors ✅
 
 ```
-- Operators and data types
-- Detect the data type with (typeof)
+- ID Selector
+- Class Selector
+- labels Selector
+- Attribute Selector
+- Find and parent
 ```
 
-# Control structures -Conditional ✅
+# Events in jQuery✅
 
 ```
-- Conditional if
-- Conditionals and logical operators
-- Conditional switch
+- Mouse and Hover events
+- Hover
+- Click and double click
+- Blur and Focus
+- Mouse move and more examples
 ```
 
-# Control Structures - Iterators and Loops ✅
-
+# Effects, animations and more ✅
 ```
-- for loop
-- while loop
-- Do while loop
-- How to stop a loop - break
-```
-
-# Alerts and windows ✅
-
-```
-Alerts and windows of data entry
-```
-
-# functions and methods ✅
-
-```
-- Create functions
-- Parameters
-- Optional parameters
-- Functions within others
-- Rest and Spread parameters
-- Anonymous functions and callbacks
-- Arrow functions
-- The scope of the variables
-- Methods for processing texts
-- Search methods
-- replacement functions
-- JavaScript text template
-```
-
-# Arrays ✅
-
-```
-- Basic Arrays
-- Advanced Arrays
-- Loop through arrays: for , forEach
-- Multidimensional Arrays
-- Operations with Arrays
-- Convert a string to an array
-- Sort arrays
-- Loop through arrays: for...in
-- Search in an array
-```
-
-# DOM - Document Object Model ✅
-
-```
-- Introduction to the DOM
-- Select and modify page elements
-- Practicing with the DOM - querySelector, getElementById...
-- Query Selector All
-
-```
-
-# BOM - Bowser Object Model ✅
-
-```
-- Manipulate the browser and get data with JavaScript
-```
-
-# Events ✅
-
-```
-- What is an event + mouse event
-- Keyboard and focus events etc...
--Load event
-- Timers
-```
-
-# JSON Object in JS - JavaScript Object Notation ✅
-
-```
-- operator this
-- JSON What is it and how to use the objects?
-```
-
-# Local Storage ✅
-
-```
-LocalStorage in the browser
-```
-
-# Asynchronous requests (Fetch, Ajax) and promises ✅
-
-```
-- Fetch and asynchronous requests
-- Promises and Fetch
-- How to create promises
-- Catch error in promises
-- Catch bugs
-```
-
-# Dates - Math and more ✅
-
-```
-- Dates in JS
-- Math functions in JS
+- Work with the Dom and texts
+- Effects in jQuery
+- Custom animations
+- Callbacks in effects
 ```
 
 # Feel free to clone the repo, I'll be happy if you practice your knowledge from this source. 💯
@@ -161,8 +71,8 @@ LocalStorage in the browser
 Clone this Repo
 
 ```
-git clone https://github.com/catherinee24/Master-in-JS-Course
-cd Master-in-JS-Course
+git clone https://github.com/catherinee24/learning-jquery
+cd learning-jquery
 ```
 
 Then install dependencies
@@ -177,7 +87,27 @@ Or if you use the management package npm
 npm install
 ```
 
-# A little advice for you: ❗❗❗
+# Integrate jQuery into your code editor ✔✔
+
+## [[Integrate jQuery!!]](https://releases.jquery.com/)
+
+```
+Once you enter the link select this version ⏬
+
+jQuery 3.x
+jQuery Core 3.6.1 - minified
+```
+
+Then.. Paste this code into your Index.html file ⏬
+
+```
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+```
+
+🔸 Guide yourself from the repository if you feel a bit lost 🔸
+THAT'S IT YOU'RE READY TO WORK WITH jQuery LIBRARY 🔸
+
+# A little advice for you ❗❗❗
 
 ## I usually use "Prettier" to improve my code and make it look cleaner. It is also super useful for those who are starting to program. I know that when we are beginners in writing code, we usually make mistakes or our code looks messier and we can't read it ourselves.
 

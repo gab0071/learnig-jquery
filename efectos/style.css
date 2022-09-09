@@ -1,0 +1,11 @@
+#caja {
+    width: 300px;
+    height: 100px;
+    border: 3px solid salmon;
+    margin-top: 10px;
+    background-color: darkgrey;
+    text-align: center;
+    line-height: 50px;
+    font-family: verdana;
+    font-size: 20px;
+}
