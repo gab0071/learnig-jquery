@@ -63,6 +63,14 @@
 - Custom animations
 - Callbacks in effects
 ```
+# Ajax requests in jQuery ✅
+
+```
+- load - Ajax
+- Get method - Ajax
+- Post method - Ajax
+- $.ajax method
+```
 
 # Feel free to clone the repo, I'll be happy if you practice your knowledge from this source. 💯
 
@@ -71,8 +79,8 @@
 Clone this Repo
 
 ```
-git clone https://github.com/catherinee24/learning-jquery
-cd learning-jquery
+git clone https://github.com/gab0071/learnig-jquery
+cd learnig-jquery
 ```
 
 Then install dependencies
