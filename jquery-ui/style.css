@@ -1,0 +1,46 @@
+body {
+    background-color: #eceef2;
+}
+
+h1 {
+    color: #f07268;
+    margin-left: 450px;
+}
+.element {
+    width: 250px;
+    height: 250px;
+    background-color: #fefcdd;
+    border: 3px solid black;
+    margin: 80px;
+    float: left;
+}
+
+.sport_list li {
+    width: 80%;
+    padding: 20px;
+    border: 4px solid #0080a7;
+    list-style: none;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+ul .ui-selecting {
+    background: #9fc9dd;
+}
+ul .ui-selected {
+    background: #4e7d96;
+}
+
+#box-one {
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    border: 3px solid black;
+}
+
+#box-two {
+    width: 250px;
+    height: 250px;
+    background-color: violet;
+    border: 3px solid black;
+}

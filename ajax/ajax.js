@@ -25,9 +25,11 @@ window.addEventListener('load', () => {
 
     let register = $('#register_form')
 
-    register.submit((event) => { // e => event parameter
-        event.preventDefault()  // this is to prevent the page from redirecting
-        event.stopPropagation()
+    register.submit((e) => { // e => event parameter
+        e.preventDefault()
+
+        // event.preventDefault()  // this is to prevent the page from redirecting
+        // event.stopPropagation()
         let user = {
             'name': $('input[name="name"]').val(),
             'web': $('input[name="web"]').val()

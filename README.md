@@ -72,6 +72,15 @@
 - $.ajax method
 ```
 
+# Learning jQuery UI 🌈
+```
+jQuery UI is a plugin that works with JS ✅
+
+Interactions with jQuery
+🟢 Draggable, Resizable, Selectable, Sortable, Droppable
+```
+# You can directly interact with these interactions in the jquery-ui folder in the code and see how to implement them as well.
+
 # Feel free to clone the repo, I'll be happy if you practice your knowledge from this source. 💯
 
 `Setup`
@@ -79,7 +88,7 @@
 Clone this Repo
 
 ```
-git clone https://github.com/gab0071/learnig-jquery
+git clone https://github.com/catherinee24/learning-jquery
 cd learnig-jquery
 ```
 

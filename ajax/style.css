@@ -9,3 +9,7 @@ body {
     height: 450px;
     overflow: scroll;
 }
+
+input {
+    height: 20px;
+}

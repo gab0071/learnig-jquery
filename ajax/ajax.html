@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajax 🅰️</title>
     <!-- style -->
-    <link rel="stylesheet" href="./ajax/style.css">
+    <link rel="stylesheet" href="./style.css">
     <!-- script jquery integration ⬇️ -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="./ajax/ajax.js"></script>
+    <script type="text/javascript" src="./ajax.js"></script>
 </head>
 
 <body>
@@ -21,11 +21,11 @@
     <hr>
     <form action="https://reqres.in/api/users" method="post" id="register_form">
         <h1>Resgister </h1>
-        <label for="name">Put your name</label> <br>
-        <input type="name" name="name">
+        <label for="name">Name: </label> <br>
+        <input type="name" name="name" placeholder="put your name">
         <br>
-        <label for="name">Put your website</label> <br>
-        <input type="text" name="web">
+        <label for="name">Web: </label> <br>
+        <input type="text" name="web" placeholder="put your web">
 
         <button type="submit" value="register"> Send </button>
     </form>
