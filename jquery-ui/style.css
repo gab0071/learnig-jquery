@@ -6,6 +6,13 @@ h1 {
     color: #f07268;
     margin-left: 450px;
 }
+
+ul .ui-selecting {
+    background: #9fc9dd;
+}
+ul .ui-selected {
+    background: #4e7d96;
+}
 .element {
     width: 250px;
     height: 250px;
@@ -15,6 +22,13 @@ h1 {
     float: left;
 }
 
+.element {
+    background-color: #fefcdd;
+    float: none;
+    display: none;
+}
+
+
 .sport_list li {
     width: 80%;
     padding: 20px;
@@ -22,13 +36,6 @@ h1 {
     list-style: none;
     margin-left: 70px;
     cursor: pointer;
-}
-
-ul .ui-selecting {
-    background: #9fc9dd;
-}
-ul .ui-selected {
-    background: #4e7d96;
 }
 
 #box-one {

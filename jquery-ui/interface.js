@@ -7,9 +7,10 @@ window.addEventListener('load', () => {
     $(document).ready(() => {
         console.log('hola')
     })
-     
+
     let element = $('.element')
     // move elements through the page
+    // draggable
     element.draggable()
 
     // resizable 
@@ -20,8 +21,8 @@ window.addEventListener('load', () => {
 
     // sortable
     $('.sport_list').sortable({
-        update: function(event, ui) {
-           console.log('you already change me!')
+        update: function (event, ui) {
+            console.log('you already change me!')
         }
     })
 
@@ -29,10 +30,34 @@ window.addEventListener('load', () => {
     $('#box-one').draggable()
 
     $('#box-two').droppable({
-        drop: function(){
+        drop: function () {
             console.log('what you put on me?')
         }
     })
+
+    // show
+    $('#show').click(function () {
+        $('.box_efects').toggle('fade', 'slow') // Mirar mas efectos en la documentacion
+
+    })
+
+    // Plugins y Widgets
+    // Tooltips
+
+    $(document).tooltip()
+
+    // Cuadros de dialogos
+    // Dialog
+    $('#showme-popup').click(function () {
+        $('#pop-up').dialog()
+    })
+
+    // Calendario
+    $('#date_picker').datepicker()
+
+    // Tabs
+    $('#tabs_ui').tabs()
+
 
 })
 
