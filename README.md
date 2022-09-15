@@ -57,12 +57,14 @@
 ```
 
 # Effects, animations and more ✅
+
 ```
 - Work with the Dom and texts
 - Effects in jQuery
 - Custom animations
 - Callbacks in effects
 ```
+
 # Ajax requests in jQuery ✅
 
 ```
@@ -93,32 +95,40 @@ Then.. Paste this code into your Index.html file ⏬
 THAT'S IT YOU'RE READY TO WORK WITH jQuery LIBRARY 🔸
 
 # Learning jQuery UI 🌈
+
 ```
 jQuery UI is a plugin that works with JS ✅
 
+<<<<<<< HEAD
 ➡️ Some Interactions with jQuery⬅️
-🟢 Draggable, Resizable, Selectable, Sortable, Droppable, toggle. 
+🟢 Draggable, Resizable, Selectable, Sortable, Droppable, toggle.
 
 ➡️ Pluglings and Widgets ⬅️
 🟢 Tooltips, Dialog, Date picker, tabs.
+=======
+ Some Interactions with jQuery
+🟢 Draggable, Resizable, Selectable, Sortable, Droppable...
+>>>>>>> f506d4de8e6a881b15184e0582a0af58bcd3400e
 ```
 
 # Download jQuery UI as below 🔽
-## [[ Download jQuery UI!!]](https://jqueryui.com/)
+
+## [[Download jQuery UI!!]](https://jqueryui.com/)
 
 ![image](https://user-images.githubusercontent.com/91906385/190037953-a3c218e0-bc6e-4a19-9c7c-b418c58c0d19.png)
 
 ## Once you have the library downloaded in your machine's file explorer, then drag the folder into your VSC or whatever text editor you use. 😀
 
 Then.. Paste this code into your Index.html file ⏬
-````
+
+```
 <script type="text/javascript"
         src="jquery-ui-1.13.2/jquery-ui-1.13.2/jquery-ui.min.js"></script>
-````
+```
+
 THAT'S IT YOU'RE READY TO WORK WITH jQuery UI LIBRARY !!! 🔸
 
-# You can directly interact with these interactions in the ``jquery-ui`` folder in the code and see how to implement them as well.
-
+# You can directly interact with these interactions in the `jquery-ui` folder in the code and see how to implement them as well.
 
 # Feel free to clone the repo, I'll be happy if you practice your knowledge from this source. 💯
 
@@ -127,7 +137,7 @@ THAT'S IT YOU'RE READY TO WORK WITH jQuery UI LIBRARY !!! 🔸
 Clone this Repo
 
 ```
-git clone https://github.com/catherinee24/learning-jquery
+git clone https://github.com/gab0071/learnig-jquery
 cd learnig-jquery
 ```
 
